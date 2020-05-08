@@ -1,6 +1,9 @@
 # Python中每个文件就代表了一个模块（module）
 
-# import library as lib 给库library生成一个别名lib 
+# 1.import library as lib # 给库library生成一个别名lib
+# 2.from lib import fun   # 引用lib库中的fun函数
+# 3.import lib #导入lib模块
+# 2,3区别为使用2使用fun函数时，须注明哪个模块的fun函数，3直接引用即可
 import module1 as m1
 import module2 as m2
 
