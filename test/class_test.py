@@ -5,7 +5,7 @@ class Student(object):
     def __init__(self, name, age, color):
         self.name = name # public
         self.age = age   # public
-        self.__bed_color = color # private
+        self.__bed_color = color # private 使用"__"来设置属性
     
     def study(self, couse_name):
         print('%s正在学习%s.' % (self.name, couse_name))
