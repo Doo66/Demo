@@ -1,7 +1,3 @@
-from socket import socket
-from json import loads
-from base64 import b64decode
-
 def main():
     client = socket()
     client.connect(('192.168.31.238', 5566))
